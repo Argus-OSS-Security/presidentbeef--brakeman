@@ -1,8 +1,9 @@
 name: docker-hub-push
-on:
-  push:
-    tags:
-      - '*'
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   push:
+#     tags:
+#       - '*'
 jobs:
   docker:
     runs-on: ubuntu-latest
